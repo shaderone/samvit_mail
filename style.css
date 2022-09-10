@@ -36,6 +36,7 @@ img {
 }
 
 body {
+    overflow: hidden;
     width: 100vw;
     position: relative;
     display: grid;
@@ -173,40 +174,49 @@ body {
 
 /* payment styles */
 
-.payment{
+.payment {
     width: 100%;
     height: 80px;
     margin-top: 30px;
 }
+
 /* ------------------------------------------------ */
-h3.heading{
+h3.heading {
     font-size: large;
     font-family: 'Podkova',
-serif;
+        serif;
 }
 
 /* ------------------------------------------------ */
-.payment_data{
-    display: flex;justify-content: space-between;align-items: center;margin-top: 10px;
+.payment_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
 }
-.amount{
-    font-weight:300;
-    font-family: 'Poppins',sans-serif;  
+
+.amount {
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
 }
-.payment_method{
+
+.payment_method {
     color: #0095da;
-    font-weight:700;
-    font-family: 'Poppins',sans-serif;  
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
-.booking_id{
-    
-    font-family: 'Poppins',sans-serif;  
+
+.booking_id {
+
+    font-family: 'Poppins', sans-serif;
 }
-.payment_method::before{
+
+.payment_method::before {
     content: "[";
     color: #000;
 }
-.payment_method::after{
+
+.payment_method::after {
     content: "]";
     color: #000;
 }
@@ -214,7 +224,7 @@ serif;
 /* message section */
 
 
-.message{
+.message {
 
     width: 100%;
     height: 80px;
@@ -223,41 +233,49 @@ serif;
     flex-direction: column;
     justify-content: space-around;
 }
-.message .message_head{
+
+.message .message_head {
     font-family: 'Podkova', sans-serif;
-    font-weight:500;
-    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
 }
-.message .message_description{
+
+.message .message_description {
     font-size: .9rem;
-    line-height:20px;
-    font-family: 'Poppins',sans-serif;
+    line-height: 20px;
+    font-family: 'Poppins', sans-serif;
 
 }
 
 /* mail contact section styles */
 
 
-.mail_content{
+.mail_content {
     display: flex;
     width: 100%;
     height: 100px;
     justify-content: space-between;
     margin-top: 15px;
     align-items: center;
-    
+
 }
-.contact_head{
+
+.contact_head {
     font-size: 1.1rem;
     font-family: 'Redressed',
-cursive;
-color: #656565;
+        cursive;
+    color: #656565;
 }
-.contact_left,.contact_center{
+
+.contact_left,
+.contact_center {
     border-right: 1px dotted #000;
     padding-right: 10px;
 }
-.contact_left,.contact__center,.contact_right{
+
+.contact_left,
+.contact__center,
+.contact_right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -266,34 +284,37 @@ color: #656565;
 }
 
 
-.contact_right_head{
+.contact_right_head {
     font-family: 'Redressed',
-cursive;
-color: #656565;
+        cursive;
+    color: #656565;
 }
 
 
 /* icons */
 
-i.fa-brands{
+i.fa-brands {
     font-size: 1.5rem;
     margin-top: 10px;
     cursor: pointer;
 
 }
 
-span.social_icons{
+span.social_icons {
     display: flex;
     justify-content: space-around;
 }
-i.fa-facebook{
+
+i.fa-facebook {
     color: #1778F2;
 }
-i.fa-youtube{
+
+i.fa-youtube {
     color: #ff0000;
     margin-left: 10px;
 }
-i.fa-instagram{
+
+i.fa-instagram {
     color: #e95950;
     margin-left: 10px;
 }
@@ -301,43 +322,47 @@ i.fa-instagram{
 
 /* center contaier */
 
-.contact_center p:nth-child(1){
- 
-    font-family: 'Poppins',sans-serif;
+.contact_center p:nth-child(1) {
+
+    font-family: 'Poppins', sans-serif;
     font-size: .8rem;
     color: #656565;
 }
-.contact_center p:nth-child(2){
+
+.contact_center p:nth-child(2) {
     color: #1778F2;
     margin-top: 5px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-.contact_center p:nth-child(3){
+
+.contact_center p:nth-child(3) {
     margin-top: 5px;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #656565;
 }
 
-.number{
+.number {
     font-size: .9rem;
     margin-top: 5px;
 }
 
 /* contact right */
 
-.contact_right_head{
+.contact_right_head {
     font-size: 1.1rem;
 }
-.contact_right a:nth-child(1){
+
+.contact_right a:nth-child(1) {
     margin-top: 5px;
-    
-}
-.contact_right a:nth-child(3){
-    margin-top: 5px;
-    
-}
-.contact_right a{
-    font-family: 'Poppins',sans-serif;
-    font-size: .9rem;
+
 }
 
+.contact_right a:nth-child(3) {
+    margin-top: 5px;
+
+}
+
+.contact_right a {
+    font-family: 'Poppins', sans-serif;
+    font-size: .9rem;
+}
